@@ -24,7 +24,7 @@ async function main() {
       secure: false, // true for 465, false for other ports
       auth: {
         user: "yashbomble2003@gmail.com", // generated ethereal user
-        pass: "ehutwdxuxvfzzfvd" // generated ethereal password
+        pass: process.env.MAIL_PASS // generated ethereal password
       },
     });
   
